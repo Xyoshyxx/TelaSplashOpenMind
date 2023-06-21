@@ -10,26 +10,26 @@ using System.Windows.Forms;
 
 namespace TelaSplashOpenMind
 {
-    public partial class Formulário3 : Form
+    public partial class Menu : Form
     {
-        public Formulário3()
+        public Menu()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void cadastroToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Menu_Load(object sender, EventArgs e)
         {
-            label1.Text = "Sistema ativado";
+
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
-            label1.Text = "Sistema Desativado";
+
         }
     }
 }
