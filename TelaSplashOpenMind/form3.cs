@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TelaSplashOpenMind
 {
-    public partial class Menu : Form
+    public partial class form3 : Form
     {
-        public Menu()
+        public form3()
         {
             InitializeComponent();
         }

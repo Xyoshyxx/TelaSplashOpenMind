@@ -1,7 +1,7 @@
 ﻿
 namespace TelaSplashOpenMind
 {
-    partial class Menu
+    partial class form3
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace TelaSplashOpenMind
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(form3));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.cadastroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();

@@ -37,10 +37,10 @@ namespace TelaSplashOpenMind
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if(textBox1.Text=="admin" && textBox2.Text == "123456")
+           if(textBox1.Text=="admin" && textBox2.Text == "123456")
             {
                 this.Close();
-                nt = new Thread(novoForm);
+                
                 nt.SetApartmentState(ApartmentState.STA);
                 nt.Start();
             }
@@ -50,9 +50,12 @@ namespace TelaSplashOpenMind
             }
         }
 
-        private void novoForm()
+        private void button1_Click_1(object sender, EventArgs e)
         {
-            Application.Run(new Formulário3());
+            form3 outro = new form3();
+            outro.ShowDialog();
+            this.Hide();
         }
     }
-}
+    }
+
